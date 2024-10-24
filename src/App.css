@@ -28,6 +28,58 @@
 body{
   margin:0 !important;
   padding:0 !important;
-  background-color:var(--Grey900);
 }
 
+/*Mobile CSS*/
+.app{
+  background-color:var(--Grey900) !important;
+  width:100vw !important;
+  height:100vh !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.card{
+  background-color: var(--Grey800) !important;
+  width:85vw !important;
+  height:70vh !important;
+  padding:1.5rem 1rem !important;
+}
+
+.profile-img{
+  border-radius:100rem;
+  width:35%;
+}
+
+.profile-name{
+  color:var(--White);
+}
+
+.profile-location{
+  color:var(--Green);
+}
+
+.profile-tagline{
+  text-align: center;
+  color:var(--White);
+}
+
+button{
+  width:100%;
+}
+
+/*Tablet CSS*/
+@media only screen and (min-width:768px){
+  .card{
+    width:60vw !important;
+    height:70vh !important;
+  }
+}
+
+/*Desktop CSS*/
+@media only screen and (min-width:1280px){
+  .card{
+    width:30vw !important;
+    height:60vh !important;
+  }
+}
