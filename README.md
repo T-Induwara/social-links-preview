@@ -1,6 +1,6 @@
-# Frontend Mentor - Multi step form solution
+# Frontend Mentor - Social links profile solution
 
-This is a solution to the [Multi-step form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -11,7 +11,6 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -20,43 +19,29 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
 
 Users should be able to:
 
-- Complete each step of the sequence
-- Go back to a previous step to update their selections
-- See a summary of their selections on the final step and confirm their order
-- View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- Receive form validation messages if:
-  - A field has been missed
-  - The email address is not formatted correctly
-  - A step is submitted, but no selection has been made
 
 ### User Interface
 
-![](https://i.ibb.co/bvpDLfz/multi-step-form-mobile-UI.png)
+![](https://i.ibb.co/4tQ8JrS/social-link-app-mobile-ui.png)
 
-![](https://i.ibb.co/XC2JmfC/multi-step-form-desktop-UI.png)
+![](https://i.ibb.co/3p5WVSj/social-link-app-desktop-ui.png)
 
 ### Links
 
 - Solution URL: [Visit](https://www.frontendmentor.io/solutions/multi-step-form-8Kx4n8j2Wz)
-- Live Site URL: [Visit](https://multi-step-form-t-induwara.vercel.app/)
+- Live Site URL: [Visit](https://social-links-preview.vercel.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Vanilla JavaScript
+- React JS
+- Bootstrap
 
 ### What I learned
 
-By engaging with this challenge, I was able to have an idea about developing Web forms with multiple steps. I used my previous JavaScript knowledge to develop this Web App by manipulating same knowledge in various ways.
-
-### Continued development
-
-I haven't done advanced form validations in this project. So, I intend to keep working on that.
+Since this is my very first React JS project on Frontend Mentor, I can say I learned new things about React JS, without a doubt. For example, how to use Node Package Manager and much more.
 
 ## Author
 
