@@ -12,7 +12,7 @@ const Card = () => {
                 <p className="profile-location">London, United Kingdom</p>
             </div>
             <div className="tagline-wrapper">
-                <p className="profile-tagline">"Front-end developer and avid reador."</p>
+                <p className="profile-tagline">"Front-end developer and avid reader."</p>
             </div>
             <div className="btn-wrapper d-flex flex-column align-items-center">
                 <button className="">GitHub</button>

@@ -40,9 +40,9 @@ body{
 }
 
 .card{
+  border-radius:0.8rem !important;
   background-color: var(--Grey800) !important;
   width:85vw !important;
-  height:70vh !important;
   padding:1.5rem 1rem !important;
 }
 
@@ -52,27 +52,57 @@ body{
 }
 
 .profile-name{
+  font-family: 'Inter600' !important;
   color:var(--White);
+  margin-top:1.5rem;
 }
 
 .profile-location{
+  font-family: 'Inter600' !important;
   color:var(--Green);
 }
 
 .profile-tagline{
+  width:100%;
+  font-family: 'Inter400' !important;
+  font-size:0.9rem;
   text-align: center;
   color:var(--White);
+  margin-top:1rem;
 }
 
 button{
   width:100%;
+  font-family: 'Inter600' !important;
+  font-size:0.8rem;
+  background-color: var(--Grey700);
+  outline:none;
+  border:0rem;
+  border-radius:0.5rem !important;
+  color:var(--White);
+  padding-top:0.6rem;
+  padding-bottom:0.6rem;
+  margin-top:1rem !important;
+  transition: 0.6s;
+}
+button:hover{
+  color:var(--Grey700);
+  background-color: var(--Green);
+  transition: 0.6s;
 }
 
 /*Tablet CSS*/
 @media only screen and (min-width:768px){
   .card{
     width:60vw !important;
-    height:70vh !important;
+    padding:1.5rem 1rem !important;
+  }
+  .profile-img{
+    width:20%;
+  }
+  .profile-name{
+    font-family: 'Inter600' !important;
+    font-size:1.8rem;
   }
 }
 
@@ -80,6 +110,9 @@ button{
 @media only screen and (min-width:1280px){
   .card{
     width:30vw !important;
-    height:60vh !important;
+    padding:1.5rem 1rem !important;
+  }
+  .profile-img{
+    width:20%;
   }
 }
